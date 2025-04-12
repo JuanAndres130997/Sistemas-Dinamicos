@@ -1,0 +1,31 @@
+## Ejemplo de solución de ecuación diferencial usando la Transformada de Laplace
+
+Se desea resolver la ecuación diferencial:
+
+\\[ \\ddot{x} + 2\\dot{x} + 5x = 3 \\]
+con condiciones iniciales:
+\\[ x(0) = 0, \\quad \\dot{x}(0) = 0 \\]
+
+Aplicando la transformada de Laplace:
+\\[ \\mathcal{L}\\{\\ddot{x}\\} + 2\\mathcal{L}\\{\\dot{x}\\} + 5\\mathcal{L}\\{x\\} = \\mathcal{L}\\{3\\} \\]
+
+\\[ s^2X(s) - sx(0) - \\dot{x}(0) + 2(sX(s) - x(0)) + 5X(s) = \\frac{3}{s} \\]
+\\[ (s^2 + 2s + 5)X(s) = \\frac{3}{s} \\]
+\\[ X(s) = \\frac{3}{s(s^2 + 2s + 5)} \\]
+
+### Fracciones parciales
+
+\\[ X(s) = \\frac{A}{s} + \\frac{Bs + C}{s^2 + 2s + 5} \\]
+
+Resolviendo:
+- \\( A = \\frac{3}{5} \\)
+- \\( C = -\\frac{6}{5} \\)
+- \\( B = \\frac{3}{10} \\)
+
+Entonces:
+
+\\[ X(s) = \\frac{3}{5s} + \\frac{\\frac{3}{10}s - \\frac{6}{5}}{s^2 + 2s + 5} \\]
+
+### Inversa de Laplace
+
+\\[ x(t) = \\frac{3}{5} - \\frac{3}{10}e^{-t}\\cos(2t) - \\frac{3}{10}e^{-t}\\sin(2t) \\]
