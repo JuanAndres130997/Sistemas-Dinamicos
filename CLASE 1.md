@@ -24,110 +24,65 @@ $$\[
 
 Aplicando la transformada de Laplace:
 
-\[
+$$\[
 s^2X(s) - sa - b + 3[sX(s) - a] + 2X(s) = 0
-\]
+\]$$
 
-\[
+$$\[
 (s^2 + 3s + 2)X(s) = sa + b + 3a
-\]
+\]$$
 
-\[
+$$\[
 X(s) = \frac{a(s+1) + b}{(s+1)(s+2)}
-\]
+\]$$
 
 Transformada inversa:
 
-\[
+$$\[
 x(t) = ae^{-2t} + (a + b)e^{-t},\quad t \geq 0
-\]
+\]$$
 
 ---
 
-### 💡Ejemplo 2:
+### 💡Ejercicio para Solucionar:
 
-\[
+$$\[
 \ddot{x} + 2\dot{x} + 5x = 3,\quad x(0) = 0,\quad \dot{x}(0) = 0
-\]
+\]$$
 
 Transformada de Laplace:
 
-\[
+$$\[
 s^2X(s) + 2sX(s) + 5X(s) = \frac{3}{s}
 \Rightarrow X(s) = \frac{3}{s(s^2 + 2s + 5)}
-\]
+\]$$
 
 Fracciones parciales:
 
-\[
+$$\[
 X(s) = \frac{A}{s} + \frac{Bs + C}{s^2 + 2s + 5}
-\]
+\]$$
 
 Donde:
 
-- \( A = \frac{3}{5} \)
-- \( B = -\frac{3}{5} \)
-- \( C = -\frac{6}{5} \)
+- $$\( A = \frac{3}{5} \)$$
+- $$\( B = -\frac{3}{5} \)$$
+- $$\( C = -\frac{6}{5} \)$$
 
 Reescribimos:
 
-\[
+$$\[
 X(s) = \frac{3}{5s} - \frac{3s + 6}{5((s+1)^2 + 4)}
-\]
-
-Transformada inversa:
-
-\[
-x(t) = \frac{3}{5} - \frac{3}{5}e^{-t}\cos(2t) - \frac{3}{10}e^{-t}\sin(2t)
-\]
-
-## 9. Ejercicios
-
-📚 **Ejercicio 1:**
-
-Resuelve:
-$$\[
-\ddot{y} + 4y = \cos(2t),\quad y(0) = 0,\quad \dot{y}(0) = 0$$
-\]
-
-✅ **Solución:**
-
-Transformada de Laplace:
-
-\[
-s^2Y(s) + 4Y(s) = \frac{s}{s^2 + 4}
-\Rightarrow Y(s) = \frac{s}{(s^2 + 4)^2}
-\]
-
-Transformada inversa (tabla de transformadas):
-
-\[
-y(t) = \frac{1}{4}t\sin(2t)
-\]
-
-📚 **Ejercicio 2:**
-
-Resuelve:
-$$\[
-\dot{y} + y = e^{-2t},\quad y(0) = 1
 \]$$
 
-✅ **Solución:**
-
-\[
-sY(s) - y(0) + Y(s) = \frac{1}{s + 2}
-\Rightarrow (s + 1)Y(s) = \frac{1}{s + 2} + 1
-\Rightarrow Y(s) = \frac{1}{(s + 1)(s + 2)} + \frac{1}{s + 1}
-\]
-
 Transformada inversa:
 
-\[
-y(t) = e^{-t} + \left(e^{-t} - e^{-2t}\right)
-= 2e^{-t} - e^{-2t}
-\]
+$$\[
+x(t) = \frac{3}{5} - \frac{3}{5}e^{-t}\cos(2t) - \frac{3}{10}e^{-t}\sin(2t)
+\]$$
 
-## 10. Conclusiones
+
+## 9. Conclusiones
 
 La transformada de Laplace permite resolver ecuaciones diferenciales de manera sistemática, convirtiéndolas en expresiones algebraicas manejables. El dominio `s` facilita el trabajo con condiciones iniciales y simplifica la obtención de soluciones analíticas.
 
