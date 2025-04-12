@@ -1,7 +1,5 @@
 # Ecuaciones Diferenciales y Transformada de Laplace
 
-La clase introduce el uso de la transformada de Laplace como herramienta para resolver ecuaciones diferenciales lineales. Este método permite transformar ecuaciones diferenciales del dominio del tiempo a ecuaciones algebraicas en el dominio de la frecuencia, facilitando su resolución. Posteriormente, se aplica la transformada inversa de Laplace para obtener la solución final en el tiempo.
-
 ## 1. Metodología de solución
 
 ### 1.1 Pasos generales
@@ -20,9 +18,9 @@ La clase introduce el uso de la transformada de Laplace como herramienta para re
 
 ### 💡Ejemplo 1:
 
-\[
+$$\[
 \ddot{x} + 3\dot{x} + 2x = 0,\quad \dot{x}(0) = a,\quad x(0) = b
-\]
+\]$$
 
 Aplicando la transformada de Laplace:
 
@@ -88,8 +86,8 @@ x(t) = \frac{3}{5} - \frac{3}{5}e^{-t}\cos(2t) - \frac{3}{10}e^{-t}\sin(2t)
 📚 **Ejercicio 1:**
 
 Resuelve:
-\[
-\ddot{y} + 4y = \cos(2t),\quad y(0) = 0,\quad \dot{y}(0) = 0
+$$\[
+\ddot{y} + 4y = \cos(2t),\quad y(0) = 0,\quad \dot{y}(0) = 0$$
 \]
 
 ✅ **Solución:**
@@ -110,9 +108,9 @@ y(t) = \frac{1}{4}t\sin(2t)
 📚 **Ejercicio 2:**
 
 Resuelve:
-\[
+$$\[
 \dot{y} + y = e^{-2t},\quad y(0) = 1
-\]
+\]$$
 
 ✅ **Solución:**
 
