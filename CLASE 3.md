@@ -17,9 +17,9 @@ Es ampliamente utilizado en ingeniería mecánica, automotriz, robótica y contr
 Se parte de la Segunda Ley de Newton:  
 **Suma de fuerzas = masa × aceleración**
 
-\[
+$$\[
 m\ddot{x}(t) + c\dot{x}(t) + kx(t) = F(t)
-\]
+\]$$
 
 Donde:
 - \( m \): masa del cuerpo (kg)
