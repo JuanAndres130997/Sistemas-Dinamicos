@@ -116,6 +116,6 @@ u(t) = K_2 \cdot y(t) + K_1 \cdot \frac{dy(t)}{dt} + m \cdot \frac{d^2 y(t)}{dt^
 
 ## 4. Diagrama del sistema
 
-```markdown
-![Sistema masa-resorte-amortiguador](images/sistema_mecanico.png)
+![Diagrama MRA](https://github.com/JhonyCasas/Sistemas-Din-micos-/blob/main/Imagenes%20Apuntes/2025-04-07%20155735.png)  
+*Figura 1: Sistema masa-resorte-amortiguador con notación estándar*
 
