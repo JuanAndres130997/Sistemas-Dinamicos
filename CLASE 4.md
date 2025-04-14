@@ -228,10 +228,6 @@ Donde:
 
 ---
 
-**Conclusión:**  
-Estos conceptos están interrelacionados y son fundamentales para entender la dinámica de los cuerpos en movimiento, tanto en situaciones cotidianas como en problemas más complejos de física.
-
-
 
 ## 12. Conclusión
 
