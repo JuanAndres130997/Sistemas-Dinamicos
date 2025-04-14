@@ -1,10 +1,6 @@
-# Dinámica de Sistemas Eléctricos con Amplificadores Operacionales
+#  Amplificadores Operacionales
 
 Los amplificadores operacionales (op-amps) son componentes fundamentales en sistemas eléctricos y electrónicos, especialmente en computadoras analógicas. Estos dispositivos permiten realizar operaciones matemáticas como integración, suma e inversión de signo, gracias a su alta ganancia y características específicas. En esta clase, exploraremos su funcionamiento, aplicaciones y configuraciones básicas.
-
-## 1. Fundamentos de Amplificadores Operacionales
-### 1.1. Características ideales vs. reales
-### 1.2. Configuraciones básicas: inversor, no inversor y seguidor de voltaje
 
 ## 2. Definiciones
 
@@ -16,10 +12,6 @@ Los amplificadores operacionales (op-amps) son componentes fundamentales en sist
 ### 3.1. Función de transferencia
 $H(s) = \frac{A_0}{1 + \frac{s}{\omega_c}}$
 Donde $\( A_0 \)$ es la ganancia DC y $\( \omega_c \)$ la frecuencia de corte.
-
-### 3.2. Diagramas de Bode
-![Diagrama de Bode de un op-amp](https://github.com/JhonyCasas/Sistemas-Din-micos-/blob/main/Imagenes%20Apuntes/2025-04-13%20192522.png)  
-Figura 1. Respuesta en frecuencia típica de un amplificador operacional
 
 ## 4. Ejemplos
 
