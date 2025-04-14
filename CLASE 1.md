@@ -86,7 +86,3 @@ x(t) = \frac{3}{5} - \frac{3}{5}e^{-t}\cos(2t) - \frac{3}{10}e^{-t}\sin(2t)
 
 La transformada de Laplace permite resolver ecuaciones diferenciales de manera sistemática, convirtiéndolas en expresiones algebraicas manejables. El dominio `s` facilita el trabajo con condiciones iniciales y simplifica la obtención de soluciones analíticas.
 
-## 11. Referencias
-
-- Tabla de transformadas de Laplace: Kreyszig, *Matemáticas Avanzadas para Ingeniería*.
-- Apuntes de clase – profesor [nombre].
